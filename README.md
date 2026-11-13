@@ -37,3 +37,36 @@ Nucleotide subsequences of a specified length are counted to identify frequently
 - ORF detection is limited to the reading frames implemented in the program.
 - ORF identification uses simplified sequence-based criteria and does not confirm actual gene expression.
 - The program is intended for educational genomic sequence analysis rather than clinical or diagnostic applications.
+## How to Run
+
+### Requirements
+- Python 3
+- No external libraries required
+
+### Instructions
+
+1. Download or clone this repository.
+2. Ensure `dna2.fasta` is located in the same folder as `Genomic sequence analyser.py`.
+3. Open a terminal in that folder.
+4. Run the following command:
+
+   ```bash
+   python "Genomic sequence analyser.py"
+   ```
+
+5. When prompted, enter:
+   - **Reading frame:** `1`, `2` or `3` to select the reading frame for ORF identification.
+   - **Repeat length:** A positive integer (e.g. `3`) to specify the length of nucleotide sequences to analyse.
+
+### Output
+
+The program displays:
+
+- Total number of FASTA records.
+- Length of each DNA sequence.
+- Longest and shortest sequences.
+- Identified open reading frames (ORFs) and the longest ORF.
+- Nucleotide repeats occurring more than once.
+- Most frequently occurring nucleotide repeat and its frequency.
+
+The results are printed directly to the terminal.

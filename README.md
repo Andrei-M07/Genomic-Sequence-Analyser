@@ -4,7 +4,7 @@ A Python-based tool for analysing DNA sequences stored in multi-record FASTA fil
 
 ## Overview
 
-This project was developed as part of the **Python for Genomic Data Science course offered by Johns Hopkins University.
+This project was developed as part of the Python for Genomic Data Science course offered by Johns Hopkins University.
 
 The program processes DNA sequence data and performs basic genomic analyses, including sequence length calculations, open reading frame (ORF) identification and nucleotide repeat analysis.
 
